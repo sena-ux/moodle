@@ -54,7 +54,7 @@ cp /etc/nginx/sites-available/default /etc/nginx/sites-available/default.bak
 cat << 'EOF' > /etc/nginx/sites-available/default
 server {
     listen 80;
-    server_name yourdomain.com;
+    server_name moodle.com;
     client_max_body_size 100M;
     client_body_timeout 120s;
 
